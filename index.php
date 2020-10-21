@@ -1,4 +1,3 @@
-
 <?php
 	header("Content-Type: application/javascript");
 	header("Expires: on, 01 Jan 1970 00:00:00 GMT");
@@ -7,7 +6,7 @@
 	header("Cache-Control: post-check=0, pre-check=0", false);
 	header("Pragma: no-cache");
 
-	$campaignId = 'd6ka47';
+	$campaignId = '10gq3e';
 	$phpUrl = (is_https() ? "https://" : "http://"). $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME'];
 
 	function is_https()
